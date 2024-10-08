@@ -1,0 +1,41 @@
+/* Aplicar el fondo morado a toda la pantalla */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .qr-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que el contenedor ocupe toda la pantalla */
+    background-color: #4b006b; /* Fondo morado oscuro */
+  }
+  
+  /* Estilos para el contenedor del QR */
+  .qr-container {
+    text-align: center;
+    padding: 20px;
+    background: #4b006b; /* Fondo morado oscuro */
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para el título */
+  .qr-heading {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilos para el contenedor del QR */
+  .qr-code-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid #32004b; /* Borde morado oscuro alrededor del QR */
+  }
+  
+  
